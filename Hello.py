@@ -10,5 +10,5 @@ st.write(amount_p)
 spent = (amount/350000)*100
 #print(spent)
 result = st.slider('Amount Spent Percentage', 0, 100, round(spent))
-Details = 'https://docs.google.com/spreadsheets/d/1uYHIpqs-cm0l-PMWME5GUpxgSNCa3NNt/edit?usp=drive_link&ouid=102403513019249144512&rtpof=true&sd=true'
+Details = '[Details](https://docs.google.com/spreadsheets/d/1uYHIpqs-cm0l-PMWME5GUpxgSNCa3NNt/edit?usp=drive_link&ouid=102403513019249144512&rtpof=true&sd=true)'
 st.markdown(Details, unsafe_allow_html=True)
