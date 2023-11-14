@@ -3,7 +3,6 @@ from datetime import date
 
 amount=101000 #Update Here
 
-
 st.header('Project E', divider='rainbow')
 today = date.today()
 st.write(f'Spending as of {today}')
