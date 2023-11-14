@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 
-amount=100000 #Update Here
+amount=101000 #Update Here
 
 today = date.today()
 st.write(f'Spending as of {today}')
