@@ -1,7 +1,7 @@
 import streamlit as st
 from datetime import date
 
-amount=132052 #Update Here Daily Spending 17/11/2023
+amount=135202 #Update Here Daily Spending 19/11/2023
 
 st.header('Project E', divider='rainbow')
 today = date.today()
