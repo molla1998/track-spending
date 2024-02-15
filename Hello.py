@@ -3,13 +3,15 @@ from datetime import date
 
 amount=350000   #Spending up to 16/02/2024
 extra = 495 #Spending up to 16/02/2024
+
 st.header('Project E', divider='rainbow')
 today = date.today()
 st.write(f'Spending as of {today}')
 amount_p = '₹' + str(amount)
 st.write(amount_p)
 st.write('Extra Spending')
-st.write(extra)
+extra_amount = '₹' + str(extra)
+st.write(extra_amount)
 spent = (amount/350000)*100
 #print(spent)
 result = st.slider('Amount Spent Percentage', 0, 100, round(spent))
