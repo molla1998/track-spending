@@ -2,7 +2,7 @@ import streamlit as st
 from datetime import date
 
 amount=350000   #Spending up to 16/02/2024
-extra = 20322 #Spending up to 07/03/2024
+extra = 29322 #Spending up to 09/03/2024
 
 st.header('Project E', divider='rainbow')
 today = date.today()
